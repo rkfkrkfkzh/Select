@@ -1,0 +1,8 @@
+create table school(
+id varchar2(20) primary key,
+name varchar2(20) not null,
+tel varchar2(40),
+addr varchar2(50),
+type number not null,
+etc varchar2(30)
+);
